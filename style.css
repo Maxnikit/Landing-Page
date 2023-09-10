@@ -121,7 +121,28 @@ a {
   text-align: end;
   color: #1f2937;
   font-weight: 800;
+  font-size: 20px;
+  margin-top: 8px;
 }
 .quote-container {
   margin: 100px 0;
 }
+.cta-container {
+  display: flex;
+  background-color: #3882f6;
+  padding: 50px 200px;
+  margin: 50px;
+  border-radius: 10px;
+}
+.cta-main-text,
+.cta-secondary-text {
+  color: #e5e7eb;
+}
+.cta-main-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+.cta-secondary-text {
+  font-size: 18px;
+}
+/* TODO Починить то, что наверху страницы есть белое пространство */
