@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Roboto, sans-serif;
+  margin: 0px;
 }
 
 .header,
@@ -130,9 +131,10 @@ a {
 .cta-container {
   display: flex;
   background-color: #3882f6;
-  padding: 50px 200px;
+  padding: 50px 100px;
   margin: 50px;
   border-radius: 10px;
+  align-items: center;
 }
 .cta-main-text,
 .cta-secondary-text {
@@ -145,4 +147,13 @@ a {
 .cta-secondary-text {
   font-size: 18px;
 }
-/* TODO Починить то, что наверху страницы есть белое пространство */
+.cta-button {
+  border-radius: 10px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 3px white solid;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 200px;
+  padding: 6px 30px;
+}
